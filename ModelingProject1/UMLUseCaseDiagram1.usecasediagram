@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="6ad7a7b4-7df6-48bf-bd5a-d3bfc387df0e" name="UMLUseCaseDiagram1" linkedPackageId="e0687f00-6cd6-4162-bc74-223fb6ca650a" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="803a73d5-1f0f-4e89-8605-e16d0bbbc31d">
+      <elementDefinition Id="881cac2c-1b7e-4e13-8ae4-c020dd016577" />
+      <body>-Det finns tre sorters produkter: antik, modern och massprodukt
+
+-En antik produkt har en tidsepok och ett utgångspris som alltid innehåller ett påslag på 20%
+
+-En modern produkts utgångspris får ett påslag på 10%
+
+-En modern och en massprodukt har en deisgner kopplad till sig
+
+-En massprodukt har inget prispåslag.
+
+-En produkt måste ha ett namn, utgångspris, leverantör och provision.
+
+-En produkt är tillgänglig för bud under en viss period
+
+-Flera kunder kan buda på samma produkt
+
+-En produkt har ett acceptpris som är 50% av varans utgångspris</body>
+    </comment>
+  </ownedCommentsInternal>
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="e33d9840-0c31-4392-b265-baac4f06322f" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="d87ec09a-d6c1-4cb8-ad6d-5d6ff54560a4" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="cb9ff442-3e7e-4344-835e-be38b771bce7">
+          <propertyInstance Id="786f0eef-9529-43b7-9cdb-c533e4458537" name="BaseName">
+            <elementDefinition Id="492bcd2d-8f4e-45b1-bce2-6d79781866c6" />
+          </propertyInstance>
+          <elementDefinition Id="9bef2fd3-3017-420e-bf13-13e245975f34" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9ee0bd25-3378-4236-8886-568bdd5491c2">
+          <propertyInstance Id="6bd31eaf-1230-4b84-aa74-4f8aee8dc807" name="ClrAttributes">
+            <elementDefinition Id="522e9683-dc65-404d-8468-6fcbfb4b421e" />
+          </propertyInstance>
+          <elementDefinition Id="6af8b39a-4c90-4c92-9de0-6bf4c9833c94" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="3748b3b4-55b6-43c7-a055-9199fee2cf72">
+          <propertyInstance Id="bc7d1a53-749f-41a2-a666-0365e25b9c7c" name="Usings">
+            <elementDefinition Id="77d0a461-5889-450b-8e1b-9d05464d34c9" />
+          </propertyInstance>
+          <elementDefinition Id="77157f4b-d3e2-4185-aa13-ebe163ce638a" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="3709fc9f-8833-421b-bed8-9cbe1c696909" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="08aa226c-a6de-4ad5-9561-0e0e451d66ea" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="48943725-9ed8-44de-af70-7a04f0dc775b">
+          <propertyInstance Id="fb508fab-5970-40d4-9e76-72b4d2fffd0b" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="9ecfe84e-7528-4d79-ae3b-ab70eafae937" />
+          </propertyInstance>
+          <elementDefinition Id="701012ad-c3ba-4e8f-b254-045f5b416c03" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c229f11a-9b55-4387-87f1-5296439aa82f">
+          <propertyInstance Id="da872997-7d68-405e-a8e1-cf952c5f3e3f" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="f85926b7-ccc1-4b17-9067-1e6147ce015d" />
+          </propertyInstance>
+          <elementDefinition Id="2495d08a-e403-4312-b1a5-6cae5c0021c4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9adbf0d9-1206-43b7-8f86-0f759f8971ea">
+          <propertyInstance Id="64ffc0a6-09f8-4039-b300-b8bf37ef6bd9" name="ProjectPath" value="ClassTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|EnumTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|InterfaceTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|StructTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj">
+            <elementDefinition Id="dcb2e7b5-9001-4b92-9eed-e8e333aa4747" />
+          </propertyInstance>
+          <elementDefinition Id="d8e49fd4-7634-4090-8fca-d2cdb15373fd" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="af3bf6af-2f26-4c9f-8fcd-76d1f8c994fd">
+          <propertyInstance Id="9f100e50-4153-4768-9bb5-346a6c4992a5" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="2ee38276-82a4-40cc-ac71-08a647d7be05" />
+          </propertyInstance>
+          <elementDefinition Id="68e9b0a5-2491-4476-bd64-dc50230ea266" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9b5aaef5-4b7c-429d-a11a-43f4ced1c6e2">
+          <propertyInstance Id="870d5bdb-5d54-4c3d-b065-0c9565d62a3f" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="db50d619-4bcb-40b7-92ec-52f19b9a8a13" />
+          </propertyInstance>
+          <elementDefinition Id="f75bcf70-9886-4b48-bab8-95ae78f6beff" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="48ea8507-e4c8-4d23-a3a9-51392888100a">
+          <propertyInstance Id="80ea5d85-3eec-4b19-b2f2-7971faec3da5" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="b8bc3ba2-427f-4566-a02a-82c29984b123" />
+          </propertyInstance>
+          <elementDefinition Id="996ff3d1-d548-4bea-8956-ac4304be2bb3" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9c759414-7ef3-4fad-9b86-4287435f56d2">
+          <propertyInstance Id="ac8efcaa-6f5b-4097-a565-a5dd77df1c4b" name="Parameters">
+            <elementDefinition Id="f6d14ead-a0f3-45aa-a1a2-50ec9653e7a7" />
+          </propertyInstance>
+          <elementDefinition Id="16710f39-54b1-48ef-a91f-a2f2eec1dbf0" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="503951e0-ec98-4bfc-8890-b1b36300cc34">
+      <profileInstance Id="8221f8f6-a26b-4978-940f-b1cb249407c0" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b098b186-51a5-4d71-8968-834be096ded5">
+      <profileInstance Id="fa873df9-c260-4e35-8b7d-d549a7795783" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d09d3be1-1da4-4cb0-b4ae-8483cf9bcaef">
+      <profileInstance Id="79310180-1efd-47cd-a1a3-695d085aec8a" name="CSharpProfile">
+        <elementDefinition Id="d30702e9-6354-48e4-b844-2c03001d5a75" />
+      </profileInstance>
+      <elementDefinition Id="3993b39d-acd6-4f59-a684-bf11586c12c6" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="6823b95a-1006-4854-b515-59c7ed69b8ad">
+      <profileInstance Id="38c8e140-52bf-43da-bdac-9186be0a6957" name="TextTemplateBindings">
+        <elementDefinition Id="36aae82c-e47b-4fe4-a163-15f6aa8c0c48" />
+      </profileInstance>
+      <elementDefinition Id="84169f0c-5e33-4b98-9bd8-f0951c531200" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="206ad6fd-9386-4720-9d05-bc5909c7cfa8" name="Subsystem2" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9c71bc94-375a-4d08-97f9-72a93d7f0c64" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="93cc2358-785e-4a69-9ac3-990b7d4659ec" name="Budgivare" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="50007405-834a-4568-be38-af28cd2780a0" />
+        <targetEnds>
+          <association Id="c9ebebf5-7a5a-48b2-970c-7d87fd4c8772" isDerived="false" sourceEndRoleName="Budgivare" targetEndRoleName="Sök produkt" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="289c189e-6469-4b7e-80c7-144f7f43c0b0" LastKnownName="Sök produkt" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a1a0a851-7892-4f64-80ed-a4537f7d8ce1" name="Budgivare" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4d7a06a6-2b1d-45f7-8806-14a97fc71279" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ddcb3a14-4bb9-42cd-a776-7084eaae88b9" name="Sök produkt" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6f224951-80c9-48cd-b0f3-ae16a7e5d893" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fcb40a5c-35e3-4000-95c8-d99343bace9e" />
+          </association>
+          <association Id="d5049c06-2cd9-43bf-8c7d-5819d543564c" isDerived="false" sourceEndRoleName="Budgivare" targetEndRoleName="Lägg bud" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ada67199-5e70-49f4-98bc-18c9b1c25308" LastKnownName="Lägg bud" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3b2d2050-72ac-4822-b1d3-2a3fdb410ac8" name="Budgivare" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ffc9a9ab-412f-472b-9143-cdf418ff779e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bf6e612f-6244-48f9-9ba2-d33f5df47e09" name="Lägg bud" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1d592f10-4add-4621-80d5-7e82e1cbb5c0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1501db3f-5bff-4224-b4c7-12aefd4131bf" />
+          </association>
+          <association Id="274cac19-0860-4c97-8761-71bb8ff2f6fe" isDerived="false" sourceEndRoleName="Budgivare" targetEndRoleName="Budgivare" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="93cc2358-785e-4a69-9ac3-990b7d4659ec" LastKnownName="Budgivare" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f33ef359-3c56-42bb-89e2-1c2754d0b85a" name="Budgivare" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="312b2028-1541-402e-94bb-a463d375c087" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f67c3902-f023-4da0-ab85-2971cae4b137" name="Budgivare" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a0944d21-6858-4094-8988-6ca263194abe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7553aeb8-29ea-4741-9090-4cf58b4841a9" />
+          </association>
+          <association Id="71b48422-402e-49a3-8e82-3405cebe03f6" isDerived="false" sourceEndRoleName="Budgivare" targetEndRoleName="Betala" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a16fcf26-bad1-4603-911c-be7febfed7f8" LastKnownName="Betala" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5369f8cb-e873-4526-b5b5-a5a497f05109" name="Budgivare" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="91abaa87-fc2b-4773-b405-5d7103199b21" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3e9eed42-fc93-4b7b-9ad2-3511cf8545cb" name="Betala" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3f1298e0-5b72-4af3-9b17-cc09d4dcde7b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8e005fe0-c12f-4e80-a3f4-50ed123ecb5a" />
+          </association>
+          <association Id="3d2dbd63-a0cc-4266-a698-149ab342167d" isDerived="false" sourceEndRoleName="Budgivare" targetEndRoleName="Lämna budgivning" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ce8bcd17-6659-403e-906e-5f63fb87dd2d" LastKnownName="Lämna budgivning" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a05d6fd8-e628-48e5-a1e5-f28280cf08cd" name="Budgivare" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a112d092-23c7-4246-b135-63e8c4826239" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d4ccf5a6-7b5d-4b54-a0e7-fee9896389c3" name="Lämna budgivning" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="135adcd3-2acc-4238-8287-7ea9810d7bd9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bbbc2b9d-6ebe-4a89-b261-3d65469fc27d" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="ada67199-5e70-49f4-98bc-18c9b1c25308" name="Lägg bud" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="636b092e-7faf-4b81-a128-e3b1fd0d0b42" />
+        <subjects>
+          <subsystemMoniker Id="206ad6fd-9386-4720-9d05-bc5909c7cfa8" LastKnownName="Subsystem2" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ce8bcd17-6659-403e-906e-5f63fb87dd2d" name="Lämna budgivning" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="11c7002d-349a-4a7a-b6a1-fcccb8fc7010" />
+        <subjects>
+          <subsystemMoniker Id="206ad6fd-9386-4720-9d05-bc5909c7cfa8" LastKnownName="Subsystem2" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="a16fcf26-bad1-4603-911c-be7febfed7f8" name="Betala" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6677ba31-efc0-48e5-81fb-73ffaad322e2" />
+        <subjects>
+          <subsystemMoniker Id="206ad6fd-9386-4720-9d05-bc5909c7cfa8" LastKnownName="Subsystem2" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="289c189e-6469-4b7e-80c7-144f7f43c0b0" name="Sök produkt" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="540b341a-843e-4580-ae8b-baaaf9015805" />
+        <subjects>
+          <subsystemMoniker Id="206ad6fd-9386-4720-9d05-bc5909c7cfa8" LastKnownName="Subsystem2" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="6a100e07-4300-4d8a-a5c6-e69824c2d5a9" name="Registrerad budgivare" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="599974d0-b31e-4bea-87f8-3754ff661bc6" />
+        <generalsInternal>
+          <generalization Id="cc8b238f-31a7-4931-a326-13bac5ddc93b" isSubstitutable="false">
+            <actorMoniker Id="93cc2358-785e-4a69-9ac3-990b7d4659ec" LastKnownName="Budgivare" />
+            <elementDefinition Id="e288ebd4-97d2-4e15-a666-d133bdf54ac0" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="96d9dd36-42f0-4ce6-870d-b13e4778bb07" name="Ny användare" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0d5ca863-be0c-46eb-b76d-27661aabea3e" />
+        <generalsInternal>
+          <generalization Id="703bd0ec-4496-4272-abfd-4f93bfe096a1" isSubstitutable="false">
+            <actorMoniker Id="93cc2358-785e-4a69-9ac3-990b7d4659ec" LastKnownName="Budgivare" />
+            <elementDefinition Id="aa4844a5-3299-4911-b85f-800737264244" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="f48254cc-0514-4fe2-9d07-f75d80ad01de" isDerived="false" sourceEndRoleName="Ny användare" targetEndRoleName="Registrera sig" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ed2d0df2-40f5-4313-9560-82612e599064" LastKnownName="Registrera sig som budgivare" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3d5be255-3d7e-45c8-93ec-6b651412d2de" name="Ny användare" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6c5e74bd-23d3-47bb-b6b9-09114b5e4b85" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cc803765-617a-4ae3-9101-f5d409715a9f" name="Registrera sig" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="032b7b86-8fa2-4c0f-80c0-8bb8a7c6f22d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="466d43d3-1079-4b48-a1b3-c13189c45582" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="ed2d0df2-40f5-4313-9560-82612e599064" name="Registrera sig som budgivare" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1d8566ab-e058-4f1d-ae84-77787fbdf9dc" />
+        <subjects>
+          <subsystemMoniker Id="206ad6fd-9386-4720-9d05-bc5909c7cfa8" LastKnownName="Subsystem2" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="e0687f00-6cd6-4162-bc74-223fb6ca650a" name="ModelingProject1">
+    <elementDefinition Id="3b3deff7-9f87-49fa-bb70-5d643f313a59" />
+  </package>
+</useCaseModelRoot>
